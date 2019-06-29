@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My place on the internet.
 
-Things you may want to cover:
+- Ruby 2.6
+- Rails 5
+- PostgreSQL
+- Heroku
 
-* Ruby version
+# Development Setup
 
-* System dependencies
+- Install `Ruby2.6` with RVM
+- Install PostgreSQL
+- Create a postgres user and add those creds to the `.env` file.
+- `rake db:create && rake db:migrate`
+- `rails server` and pray
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+AKA use docker fool. (Reminder to build a docker-compose env so I can just `docker-compose up` like a sane person.)
