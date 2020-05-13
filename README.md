@@ -12,7 +12,6 @@ My place on the internet.
 
 - Install `Ruby2.6` with RVM
 - Install PostgreSQL `brew install postgresql` on OSX: https://wiki.postgresql.org/wiki/Homebrew
-- Create a postgres user and add those creds to the `.env` file.
 - `bundle`
 - `rake db:create && rake db:migrate`
 - `rails server` and pray
